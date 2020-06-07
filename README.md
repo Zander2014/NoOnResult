@@ -1,0 +1,2 @@
+# NoOnResult
+对onActivityResult封装和使用，无需重写onActivityResult，以回调的方式拿到startActivityForResult的结果，解决了以往跳转页面和处理结果分离的痛点。
