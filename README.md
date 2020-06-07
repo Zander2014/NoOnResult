@@ -2,11 +2,13 @@
 对onActivityResult封装和使用，无需重写onActivityResult，以回调的方式拿到startActivityForResult的结果，解决了以往跳转页面和处理结果分离的痛点。
 # Setup
 
+将其作为一个module导入项目
+
 add to dependencies
 
 ```groovy
 dependencies {
-        implementation'com.github.AnotherJack:AvoidOnResult:1.0.0'
+        implementation project(path: ':NoOnResult')
 }
 ```
 
