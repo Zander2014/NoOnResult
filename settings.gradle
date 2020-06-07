@@ -1,2 +1,2 @@
-include ':app', ':noonresult'
+include ':app', ':NoOnResult'
 rootProject.name='NoOnResult'
